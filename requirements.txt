@@ -3,3 +3,4 @@ requests
 retrying
 pysocks
 PyPDF2
+google-cloud-language
