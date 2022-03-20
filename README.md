@@ -2,3 +2,5 @@ Papers with Sentiment uses Google's NLP sentiment analysis API to output the sen
 
 Install
 pip install -r requirements.txt
+
+This was built for Hack GSU 2022
