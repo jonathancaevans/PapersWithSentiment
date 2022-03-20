@@ -1,6 +1,8 @@
+flask
 beautifulsoup4
 requests
 retrying
 pysocks
 PyPDF2
 google-cloud-language
+google-cloud-vision
