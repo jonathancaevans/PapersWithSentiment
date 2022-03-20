@@ -6,3 +6,4 @@ pysocks
 PyPDF2
 google-cloud-language
 google-cloud-vision
+gunicorn
