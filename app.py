@@ -74,6 +74,7 @@ def semantify():
 	except KeyError:
 		return jsonify({"Error": "Can't find pdf for this paper"})
 	except:
+		print(e)
 		return jsonify({"Error": "Misc error"})
 
 	return jsonify({"document":{"score":round(response.document_sentiment.score, 2),"magnitude":round(response.document_sentiment.magnitude, 2)}, "sentences": sentences[:15]})
