@@ -73,7 +73,7 @@ def semantify():
 
 	except KeyError:
 		return jsonify({"Error": "Can't find pdf for this paper"})
-	except:
+	except Exception as e:
 		print(e)
 		return jsonify({"Error": "Misc error"})
 
