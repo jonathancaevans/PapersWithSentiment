@@ -3,4 +3,6 @@ Papers with Sentiment uses Google's NLP sentiment analysis API to output the sen
 Install
 pip install -r requirements.txt
 
-This was built for Hack GSU 2022
+This was built for Hack GSU 2022:
+Hack GSU 2022 MLH Best Use of Google Cloud
+Hack GSU 2002 Meta's 1st Place “Build something that helps people better understand and/or critically evaluate scientific or political articles.”
